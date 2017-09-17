@@ -1,0 +1,18 @@
+<script type="text/javascript" async
+  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+{% if page.comments %}
+<section id="disqus_thread"><center><p>加载评论模块中......</p><p>请检查你的上网姿势是否科学</p></center></section>
+<script type="text/javascript">
+var disqus_config = function() {
+    this.page.url = document.URL;
+    this.page.identifier = location.pathname.substring(1, location.pathname.length - 1);
+};
+(function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//xris.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', + new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+{% endif %}

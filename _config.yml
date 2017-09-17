@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:categories/:title/
+#relative_permalinks: true
+
+# Setup
+title:            Xris' Blog
+tagline:          'TAKE A LITTLE REST'
+description:      'TAKE A LITTLE REST'
+url:              http://blog.xris.co/
+baseurl:          /
+
+author:
+  name:           'sir-Xris'
+  url:            http://blog.xris.co
+
+paginate:         5
+paginate_path:    "/page-:num/"
+
+github:
+  repo:           https://github.com/sir-Xris
+
+gems: [ jekyll-paginate ]
