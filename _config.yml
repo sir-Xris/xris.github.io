@@ -11,7 +11,7 @@ title:            Xris' Blog
 tagline:          'TAKE A LITTLE REST'
 description:      'TAKE A LITTLE REST'
 url:              http://blog.xris.co/
-baseurl:          /
+baseurl:          
 
 author:
   name:           'sir-Xris'
